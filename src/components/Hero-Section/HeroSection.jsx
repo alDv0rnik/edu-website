@@ -1,7 +1,7 @@
 import React from 'react'
 import {  Container, Row, Col } from "reactstrap"
 import "./hero-section.css";
-import heroImg from '../../assets/images/hero-img1.png'
+import heroImg from '../../assets/images/trud.jpg'
 
 const HeroSection = () => {
   return (
@@ -12,10 +12,10 @@ const HeroSection = () => {
 
           <Col lg='6' md='6'>
             <div className='hero_content'>
-              <h1 className="mb-4">
-                <span className='e-purple'>E</span> - Learning <br />Anywhere  <br />In the world
-              </h1>
-              <p className='mb-4'>The best place to learn programming with beginner friendly tutorials and examples.</p>
+              <h2>
+                <span>Обучайся вместе с нами</span>
+              </h2>
+              <p className=''>Узнай основные сведения о режущих инструментах и металлорежущих станках на нашем сайте</p>
 
             </div>
           </Col>
