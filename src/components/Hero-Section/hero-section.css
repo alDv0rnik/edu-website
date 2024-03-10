@@ -1,0 +1,25 @@
+.hero_content h1{
+    font-weight: bolder;
+    font-size: 4rem;
+    color: #000;
+}
+
+
+.hero_content {
+    padding-top: 80px;
+}
+
+
+.hero_content p {
+    color: #0d0010;
+}
+
+.e-purple{
+    color: #db22fb;
+}
+
+@media only screen and (max-width: 991px) {
+    .hero_content{
+        padding: 20px;
+    }
+}
