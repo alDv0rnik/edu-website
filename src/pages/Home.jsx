@@ -1,9 +1,7 @@
 import React, { Fragment } from 'react'
 import Header from '../components/Header/Header'
 import HeroSection from '../components/Hero-Section/HeroSection'
-import Offer from '../components/Offer/Offer'
-import Courses from '../components/Courses-section/Courses'
-import AboutUs from '../components/About-us/AboutUs'
+import Test from '../components/Test/Test.jsx'
 import Footer from '../components/Footer/Footer'
 
 const Home = () => {
@@ -11,9 +9,7 @@ const Home = () => {
     <Fragment>
         <Header />
         <HeroSection />
-        <Offer />
-        <Courses />
-        <AboutUs />
+        <Test />
         <Footer />
     </Fragment>
   )
