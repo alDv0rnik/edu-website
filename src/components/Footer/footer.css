@@ -1,11 +1,13 @@
 .footer {
     background: #000;
+}
 
+.follows {
+    margin-top: 1.5rem;
 }
 
 .follows span a {
     text-decoration: none;
-
 }
 
 .follows span {
@@ -27,15 +29,6 @@
     font-weight: 500;
 }
 
-
-.links_socials a:hover {
-    color: #ce03f0;
-}
-
-.logo img {
-    width: 70px;
-    height: 70px;
-}
 
 @media only screen  and (max-width:  991px){
     .footer{
