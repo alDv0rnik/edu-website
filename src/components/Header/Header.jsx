@@ -1,20 +1,22 @@
 import React, {useRef} from 'react'
 import {Container} from 'reactstrap'
 import "./header.css"
+import {BASE_URL, PATHS} from "/constants.js";
+
 
 
 const navLinks = [
     {
         dispaly: 'Главная',
-        url: 'http://localhost:5173/',
+        url: BASE_URL + PATHS["HOME"],
     },
     {
         dispaly: 'Материалы',
-        url: '#'
+        url: BASE_URL + PATHS["CONTENT"]
     },
     {
         dispaly: 'Тесты',
-        url: '#'
+        url: BASE_URL + PATHS["TEST"]
     },
 ]
 
