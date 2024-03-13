@@ -2,8 +2,17 @@ import React from 'react'
 import {  Container, Row, Col } from "reactstrap"
 import "./hero-section.css";
 import heroImg from '../../assets/images/trud.jpg'
+import Button from "../Button/Button.jsx";
+import {useNavigate} from "react-router-dom";
+import {PATHS} from "../../constants.js";
 
 const HeroSection = () => {
+  const navigate = useNavigate();
+
+  function onContent () {
+    navigate(`${PATHS.CONTENT}`);
+  }
+
   return (
     <section>
       <Container>
@@ -20,7 +29,7 @@ const HeroSection = () => {
               </p>
               <div className='nav_right'>
                 <p className='mb-2 d-flex align-items-center gap-2'></p>
-                <button className='btn-sign_in'>Перейти</button>
+                <Button onClick={() => onContent()}>Перейти</Button>
               </div>
             </div>
           </Col>

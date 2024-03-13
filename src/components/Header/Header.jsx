@@ -1,7 +1,7 @@
 import React, {useRef} from 'react'
 import {Container} from 'reactstrap'
 import "./header.css"
-import {BASE_URL, PATHS} from "/constants.js";
+import {BASE_URL, PATHS} from "/src/constants.js";
 
 
 
