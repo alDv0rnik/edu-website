@@ -1,0 +1,11 @@
+.terms {
+    display: flex;
+    align-items: normal;
+    margin-top: 1.5rem;
+    font-family: 'Andada Pro', serif;
+    font-size: 18px;
+}
+
+.instruments-class {
+    margin-top: 1.5rem;
+}
