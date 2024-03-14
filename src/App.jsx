@@ -4,7 +4,7 @@ import Content from "./pages/Content.jsx";
 import NotFound from "./pages/NotFound.jsx";
 import {Route, Routes} from "react-router-dom";
 import {PATHS} from "./constants.js";
-import './App.css'
+
 
 function App() {
     return (

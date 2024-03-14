@@ -113,7 +113,9 @@ export default function InfoSection() {
                     <p></p>
                     <div className='btn-container'>
                         <p className='mb-2 d-flex align-items-center gap-2'></p>
-                        <Button onClick={() => onQuiz()}>Пройти тест</Button>
+                        <Button
+                            onClick={() => onQuiz()}>Пройти тест
+                        </Button>
                     </div>
                 </div>
             </Container>
