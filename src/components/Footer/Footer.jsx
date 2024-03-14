@@ -1,11 +1,12 @@
 import React from 'react';
 import {Container, Row, Col, ListGroup, ListGroupItem} from 'reactstrap';
 import './footer.css';
+import {BASE_URL} from "../../constants.js";
 
 const footerQuickLinks = [
     {
         display: 'На главную',
-        url: 'http://localhost:5173/'
+        url: BASE_URL
     },
     {
         display: 'Материалы',

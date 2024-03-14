@@ -1,11 +1,10 @@
-.terms {
+.content {
     display: flex;
     align-items: normal;
     margin-top: 1.5rem;
+    color: #0d0010;
+    font-size: 1.2rem;
+    line-height: 35px;
     font-family: 'Andada Pro', serif;
-    font-size: 18px;
-}
-
-.instruments-class {
-    margin-top: 1.5rem;
+    font-weight: 400;
 }
