@@ -4,6 +4,7 @@ import Content from "./pages/Content.jsx";
 import NotFound from "./pages/NotFound.jsx";
 import {Route, Routes} from "react-router-dom";
 import {PATHS} from "./constants.js";
+import Quizes from "./pages/Quizes.jsx";
 
 
 function App() {
@@ -12,7 +13,7 @@ function App() {
             <Routes>
                 <Route exaxt path={`${PATHS.HOME}`} element={<Home/>}/>
                 <Route exaxt path={`${PATHS.CONTENT}`} element={<Content/>}/>
-                {/*<Route exaxt path={`${PATHS.TEST}`} element={<Test/>}/>*/}
+                <Route exaxt path={`${PATHS.TEST}`} element={<Quizes/>}/>
                 <Route path="*" element={<NotFound/>}/>
             </Routes>
         </>

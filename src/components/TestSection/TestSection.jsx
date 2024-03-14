@@ -1,13 +1,13 @@
 import React from 'react'
 import {Container, Row, Col} from 'reactstrap'
-import "./test.css"
+import "./TestSection.css"
 import offerImg from '../../assets/images/test.jpg'
 import Button from "../Button/Button.jsx";
 import {useNavigate} from "react-router-dom";
 import {PATHS} from "../../constants.js";
 
 
-const Test = () => {
+const TestSection = () => {
     const navigate = useNavigate();
 
     function onQuiz () {
@@ -42,4 +42,4 @@ const Test = () => {
     )
 }
 
-export default Test
+export default TestSection

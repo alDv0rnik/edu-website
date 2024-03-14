@@ -1,7 +1,7 @@
 import React, { Fragment } from 'react'
 import Header from '../components/Header/Header'
 import HeroSection from '../components/Hero-Section/HeroSection'
-import Test from '../components/Test/Test.jsx'
+import TestSection from '../components/TestSection/TestSection.jsx'
 import Footer from '../components/Footer/Footer'
 
 const Home = () => {
@@ -9,7 +9,7 @@ const Home = () => {
     <Fragment>
         <Header />
         <HeroSection />
-        <Test />
+        <TestSection />
         <Footer />
     </Fragment>
   )
