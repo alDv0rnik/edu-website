@@ -15,7 +15,7 @@ const navLinks = [
         url: BASE_URL + PATHS["CONTENT"]
     },
     {
-        dispaly: 'Тесты',
+        dispaly: 'Опрос',
         url: BASE_URL + PATHS["TEST"]
     },
 ]
